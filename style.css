@@ -1,0 +1,160 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    background: #FFFFFF;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+.image-logo {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+
+section {
+    display: inline-block;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #848484;
+    width: 500px;
+}
+
+.button-main {
+    background: #adff00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgb(0, 0, 0, 25));
+    font-weight: 700;
+    font-size: 28PX;
+    line-height: 34PX;
+    color: #000000;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .container {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+
+    }
+    .image-logo {
+
+        width: 354px;
+        height: 250px;
+        margin-left: 30px;
+        margin-top: 149px;
+
+    }
+
+    .button-main {
+
+        border-radius: 30px;
+        margin-top: 25px;
+        margin-left: 90px;
+
+
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: 900;
+        height: 80px;
+        width: 260px;
+        margin-left: 80px;
+
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+        height: 37px;
+        width: 232px;
+        margin-left: 80px;
+    }
+
+    p {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+    }
+    @media screen and (max-width: 330px){
+        .container {
+            height: 50%;
+    
+    }
+    .image-logo{
+        height: 30%;
+        width:40%;
+    }
+}
